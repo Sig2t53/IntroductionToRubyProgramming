@@ -26,3 +26,15 @@ puts(1.to_s)
 puts(10.to_s(16))
 #数値を16新数の文字列に反感する(カッコなし)
 puts(10.to_s 16)
+
+puts('#改行ごとにメソッドが実行される')
+puts(1.to_s)
+puts(nil.to_s)
+puts(10.to_s(16))
+
+puts('#セミコロンを使って、3つの文を1行に押し込める')
+puts(1.to_s);puts(nil.to_s);puts(10.to_s(16))
+
+puts('#バックスラッシュを使って10.to_s 16を開業して書く')
+puts(10.to_s \
+16) 
